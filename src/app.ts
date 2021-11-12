@@ -14,7 +14,9 @@ class Game {
 
   private attempts: number;
 
-  // Constructor to construct the Game class
+  /**
+   * Constructor of the Game class
+   */
   constructor() {
     // class properties initialized
     this.words = ['jamstack', 'paper', 'macbookpro', 'wuppo'];
